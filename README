@@ -8,7 +8,9 @@ Hit f12 to open the developers console, and then hit Console.
 Drop this piece of code into the console:  
 
 ```javascript
-for (i = 0; i < 100; i++) {document.getElementsByClassName('_45yr')[0].click()}
+try {
+	while (true) {document.getElementsByClassName('_45yr')[0].click()}
+} catch(err) {}
 
 console.log('Number of advertisers:' + document.getElementsByClassName('_2b2n _2b2o').length)
 
