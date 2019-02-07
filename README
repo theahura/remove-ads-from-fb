@@ -22,3 +22,10 @@ for (i = 0; i < document.getElementsByClassName('_2b2n _2b2o').length; i++) {
 Note that the variables '_45yr' and '_2b2n _2b2o' may change.  
 To fix this, replace those classnames by right clicking on the element on the screen that you want to click,  
 hit 'Inspect Element' (which should go to the elements tab of the dev console), and look for 'class=X'. 
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
